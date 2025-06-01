@@ -61,3 +61,15 @@ Response
 
 Returns a success or failure status with optional details.
 
+http://localhost:3000/api/export
+
+3. POST /api/export
+
+Description
+
+Exports product in csv file and save file in "exports" folder inside project.
+
+Request Body(without body)
+
+Type: application/json
+
